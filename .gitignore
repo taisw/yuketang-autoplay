@@ -1,0 +1,9 @@
+# 不跟踪：本地编辑/系统文件
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# 源码即发布物，dist 照常提交
+!dist/**/*.user.js
