@@ -33,7 +33,7 @@
 ## 📦 安装
 
 1. 装好 [Tampermonkey](https://www.tampermonkey.net/) 或 Violentmonkey
-2. 下载脚本：[`dist/雨课堂·学堂在线-自动连播-v27.1.0.user.js`](dist/雨课堂·学堂在线-自动连播-v27.1.0.user.js)
+2. 下载脚本：[`dist/yuketang-autoplay.user.js`](dist/yuketang-autoplay.user.js)
 3. 拖进浏览器 / 打开文件即安装，刷新课程页即可
 4. 默认**强制静音开、自动连播开**，右下角有控制面板
 
