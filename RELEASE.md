@@ -11,7 +11,7 @@ yuketang-autoplay/
 ├── LICENSE                                # MIT
 ├── RELEASE.md                             # 本文件
 ├── dist/
-│   └── 雨课堂·学堂在线-自动连播-v27.1.0.user.js   # ✅ 发布物（Tampermonkey 直接装）
+│   └── yuketang-autoplay.user.js   # ✅ 发布物（Tampermonkey 直接装）
 ├── src/                                   # 留空，源码即发布物（单文件脚本）
 └── docs/                                  # 后续可放截图
 ```
@@ -33,7 +33,7 @@ yuketang-autoplay/
    git add README.md CHANGELOG.md LICENSE RELEASE.md dist/
    git commit -m "Release v27.1.0 正式版：v21视频逻辑 + node_id排序跳非视频 + 强制静音增强"
    git tag -a v27.1.0 -m "v27.1.0 正式版"
-   git remote add origin https://github.com/你的用户名/yuketang-autoplay.git
+   git remote add origin https://github.com/taisw/yuketang-autoplay.git
    git push -u origin main --tags
    ```
 3. **发 Release**
@@ -41,10 +41,10 @@ yuketang-autoplay/
    - Tag：`v27.1.0`
    - Title：`雨课堂·学堂在线 自动连播 v27.1.0 正式版`
    - 描述：把下面“Release 文案”粘贴进去
-   - **把 `dist/雨课堂·学堂在线-自动连播-v27.1.0.user.js` 拖进附件**（必须，这是用户点开就装的入口）
+   - **把 `dist/yuketang-autoplay.user.js` 拖进附件**（必须，这是用户点开就装的入口）
 4. **更新安装链接**（可选）
    把 README 里「安装」第二条改成你的 Release 附件直链，例如：
-   `https://github.com/你的用户名/yuketang-autoplay/releases/download/v27.1.0/雨课堂·学堂在线-自动连播-v27.1.0.user.js`
+   `https://github.com/taisw/yuketang-autoplay/releases/download/v27.1.0/yuketang-autoplay.user.js`
 
 ## Release 文案（直接复制）
 
@@ -68,7 +68,7 @@ yuketang-autoplay/
 
 > 仅用于个人学习自动化，请遵守平台规定。
 
-完整变更见 [CHANGELOG.md](https://github.com/你的用户名/yuketang-autoplay/blob/main/CHANGELOG.md)。
+完整变更见 [CHANGELOG.md](https://github.com/taisw/yuketang-autoplay/blob/main/CHANGELOG.md)。
 ```
 
 ## 以后发新版
